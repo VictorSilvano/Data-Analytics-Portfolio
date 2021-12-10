@@ -23,7 +23,3 @@ All the visuals were made in Google Sheets.
 		
 2. A scatter plot was used to track the spending habits vs their period of engament (last day played - the day the joined) of every single player. Initially this graph was one block of data points as the density and overlap were too high to really discern any insights, however after lowering the opactiy and pizel size of each point its much easier to see where every player lands and where stronger trencds are present. Most players did spend money on the game (only 9 players did not spend anything) with most spending between 250-2000 and played between 20 and 60 days. There is also a block of players that although did not engage with the game long term (sub 20 days) were willing to spend upwards of 1500. Somthing to note, if a player played for more then ~40 days they were less likely to spend over ~2250.
 
-
-## Link to Sheets:
-
-https://docs.google.com/spreadsheets/d/15MeilvHeLYuJ6X1Ycita37pzkrzJie4S0IgEv2YXz-M/edit?usp=sharing
