@@ -1,6 +1,6 @@
 # Project 1: Rolling Player Retention in Game Company over 1 Year
 
-## Queries
+## Queries ([Full Query Text](https://github.com/VictorSilvano/Data-Analytics-Portfolio/blob/main/SQL-Project/sqlQueries.txt))
 
 For this project 2 seperate quesries were used, both of which were created with the intent to bring the data into Sheets so we could make charts to Visualize the data. The first to create a table with the 30 day rolling retention rate and the second to illustrate the relationship between player spending and their engagement with the game (time between when they joined and played their final match).
 	
