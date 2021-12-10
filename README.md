@@ -1,5 +1,4 @@
 # Data-Analytics-Portfolio
-My portfolio of projects in Python & SQL
 
 Thank you for taking the time to view my portfolio, if you have any feedback please let me know I'm always happy to learn and grow on my data journey!
 
