@@ -5,10 +5,10 @@ Thank you for taking the time to view my portfolio, if you have any feedback ple
 ### You can find the Python Project [here](https://github.com/VictorSilvano/Data-Analytics-Portfolio/blob/main/Python-Project/VSilvano_Python_Project.ipynb) and the SQL Project [here](https://github.com/VictorSilvano/Data-Analytics-Portfolio/tree/main/SQL-Project).
 
 Python Project: Examining Life Expentancy against both medical and socio economic 
-    - Skills Used: Pandas, NumPy, Seaborn, Matplotlib and SciKit Learn
+    > Skills Used: Pandas, NumPy, Seaborn, Matplotlib and SciKit Learn
 
 SQL: An analysis of the 30-Day retention rate for a game company. 
-    - Skills Used: Windows Functions, Temporary Tables and Multi-Nested Queries
+    > Skills Used: Windows Functions, Temporary Tables and Multi-Nested Queries
 
 ## About me
 
