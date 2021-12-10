@@ -1,0 +1,103 @@
+Queries used for Project 1: Game Company Retention Data Exploration
+
+
+
+1. ROLLING RETENTION	
+
+SELECT                          -- Creates the final table, which includes rolling retention  
+    Day_Joined,
+    Total_Players_That_Joined,
+    Number_of_Players_Retained,
+    ROUND(Fractional_Retention_Rate*100,2) AS Fractional_Retention_Rate,
+    ROUND(SAFE_Divide(Previous_Day_Retention-Fractional_Retention_Rate,Previous_Day_Retention)* 100,2) AS Rolling_Retention_rate -----ADD COMMENT
+FROM(
+    SELECT 						-- Lags the fractional retention rate in order to acquire the rolling retention
+        Day_Joined,
+        Total_Players_That_Joined,
+        Number_of_Players_Retained,
+        Fractional_Retention_Rate,
+        Lag(Fractional_Retention_Rate,1) OVER (ORDER BY Day_Joined) AS Previous_Day_Retention
+    FROM(
+        SELECT                  -- Table that shows how many players who joined on a given day were retained
+            Day_Joined,
+            COUNT(Retained_or_Not) AS Total_Players_That_Joined,
+            SUM(Retained_or_Not) AS Number_of_Players_Retained,
+            SUM(Retained_or_Not) / COUNT(Retained_or_Not) AS Fractional_Retention_Rate
+        FROM(    
+            SELECT              -- Creating column where each player ID is categorized as Retained or Not
+                ID,
+                Day_Joined,
+                Last_Day_Played,
+                CASE 
+                    WHEN (Last_Day_Played - Day_Joined) > 30 THEN 1
+                    ELSE 0
+                    END AS Retained_or_Not
+            FROM(
+                    SELECT      --creating table with day player joined and their ID, IDs are found twice in match data once as opponent and once as player
+                        m.player_id AS ID,
+                        MIN(p.joined) AS Day_Joined,
+                        MAX(m.day) AS Last_Day_Played
+                    FROM `project-1-sql-329518.gamecompanydata.matches` AS m
+                        JOIN `project-1-sql-329518.gamecompanydata.player` AS p
+                        ON m.player_id = p.player_id
+                    GROUP BY m.player_id
+                )
+            )
+        GROUP BY Day_Joined
+        )
+    )
+    ORDER BY Day_Joined
+	
+	
+	
+2. 
+
+WITH 
+-- Join (purchase and item info) and Sum used to get total spent per player
+    total_s AS
+        (SELECT 
+            prc.player_id as player_id,
+            ROUND(SUM(i.price),2) AS total_spent
+        FROM `project-1-sql-329518.gamecompanydata.purchase` AS prc
+            JOIN `project-1-sql-329518.gamecompanydata.info` AS i
+            ON prc.item_id = i.item_id
+        GROUP BY prc.player_id),
+
+-- Nested query & Join (player and matches) used so a retention check and time spent playing could be determined
+    player_info_with_days_played AS
+        (SELECT 
+            player_id,
+            location,
+            age,
+            join_date,
+            (last_day_played - join_date) as days_played,
+            CASE 
+                WHEN (last_day_played - join_date) > 30 THEN 'TRUE'
+                ELSE 'FALSE'
+                END AS retained
+            FROM(
+                SELECT 
+                    p.player_id as player_id,
+                    p.location,
+                    p.age,
+                    MIN (p.joined) AS join_date,
+                    MAX (m.day) AS last_day_played
+                    FROM `project-1-sql-329518.gamecompanydata.matches` AS m
+                        JOIN `project-1-sql-329518.gamecompanydata.player` AS p
+                        ON m.player_id = p.player_id
+                    GROUP BY p.player_id, p.location, p.age))
+					
+-- Aggregation between 2 temporary tables made above, giving us player info alongside a retention check and money spent
+SELECT									
+    player_id,
+    location,
+    age,
+    join_date,
+    days_played,
+    retained,
+    total_spent
+FROM player_info_with_days_played
+    LEFT JOIN total_s
+    USING (player_id)
+GROUP BY 1,2,3,4,5,6,7
+ORDER BY total_spent DESC
