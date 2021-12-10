@@ -16,7 +16,7 @@ SQL: An analysis of the 30-Day retention rate for a game company.
 
 Having completed the intensive Data Analytics Bootcamp at Juno College I have the technical skills outlined in the job description. In order to demonstrate the skills I developed I worked on several projects, some collaboratively and others independently, which use a combination of Python, SQL, Tableau and Excel/Google Sheets to draw significant insights and evaluations into a given dataset. Windows functions in SQL and the Pandas, NumPy, SciKit Learn, Python libraries are some of the tools present in these projects.
 
-Having past experience as an executive trainee and graduating as a civil engineer there are transferable skills you are looking for problem solving, and the ability to communicate at a variety of levels. My degree in Civil Engineering taught me more then just the physics behind a structure, it taught me how to look at a situation from a variety of angles in order to determine the best course of action. 
+Having past experience as an executive trainee and graduating as a civil engineer there are transferable skills you are looking for problem solving, and the ability to communicate at a variety of levels. My degree in Civil Engineering taught me more than just the physics behind a structure, it taught me how to look at a situation from a variety of angles in order to determine the best course of action. 
 
 
 Thank you for your time and consideration. I look forward to meeting with you to discuss my application further. If you'd like to further connect email me: vsilvano1@gmail.com or you can book a time that suits you better through Calendly or LinkedIn.
