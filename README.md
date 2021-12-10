@@ -14,3 +14,5 @@ Having past experience as an executive trainee and graduating as a civil enginee
 Thank you for your time and consideration. I look forward to meeting with you to discuss my application further. If you'd like to further connect email me: vsilvano1@gmail.com or you can book a time that suits you better through Calendly.
 
 ### Calendly: ([15 Minute](https://calendly.com/victorsilvano/15min), [30 Minute](https://calendly.com/victorsilvano/30min) or [60 Minute](https://calendly.com/victorsilvano/60min) time slot)
+
+[LinkedIn](https://www.linkedin.com/in/victor-silvano-25227a8b/)
