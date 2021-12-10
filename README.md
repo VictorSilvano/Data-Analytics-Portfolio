@@ -9,6 +9,6 @@ Having completed the intensive Data Analytics Bootcamp at Juno College I have th
 Having past experience as an executive trainee and graduating as a civil engineer there are transferable skills you are looking for problem solving, and the ability to communicate at a variety of levels. My degree in Civil Engineering taught me more then just the physics behind a structure, it taught me how to look at a situation from a variety of angles in order to determine the best course of action. 
 
 
-Thank you for your time and consideration. I look forward to meeting with you to discuss my application further. I’m happy to take your call anytime, or you can book a time that suits you better through Calendly.
+Thank you for your time and consideration. I look forward to meeting with you to discuss my application further. If you'd like to further connect email me: vsilvano1@gmail.com or you can book a time that suits you better through Calendly.
 
 Calendly: ([15 Minute](https://calendly.com/victorsilvano/15min), [30 Minute](https://calendly.com/victorsilvano/30min) or [60 Minute](https://calendly.com/victorsilvano/60min) time slot)
