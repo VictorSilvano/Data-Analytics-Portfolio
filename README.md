@@ -2,7 +2,9 @@
 
 Thank you for taking the time to view my portfolio, if you have any feedback please let me know I'm always happy to learn and grow on my data journey!
 
-You can find the Python Project [here](https://github.com/VictorSilvano/Data-Analytics-Portfolio/blob/main/Python-Project/VSilvano_Python_Project.ipynb) and the SQL Project [here](https://github.com/VictorSilvano/Data-Analytics-Portfolio/tree/main/SQL-Project).
+### You can find the Python Project [here](https://github.com/VictorSilvano/Data-Analytics-Portfolio/blob/main/Python-Project/VSilvano_Python_Project.ipynb) and the SQL Project [here](https://github.com/VictorSilvano/Data-Analytics-Portfolio/tree/main/SQL-Project).
+
+## About me
 
 Having completed the intensive Data Analytics Bootcamp at Juno College I have the technical skills outlined in the job description. In order to demonstrate the skills I developed I worked on several projects, some collaboratively and others independently, which use a combination of Python, SQL, Tableau and Excel/Google Sheets to draw significant insights and evaluations into a given dataset. (The GitHub linked above houses my portfolio which included an analysis of the 30-Day retention rate for a game company and a Exploratory Data Analysis into life expectancy across 193 nations) Windows functions in SQL and the Pandas, NumPy Python libraries are some of the tools present in these projects.
 
@@ -11,4 +13,4 @@ Having past experience as an executive trainee and graduating as a civil enginee
 
 Thank you for your time and consideration. I look forward to meeting with you to discuss my application further. If you'd like to further connect email me: vsilvano1@gmail.com or you can book a time that suits you better through Calendly.
 
-Calendly: ([15 Minute](https://calendly.com/victorsilvano/15min), [30 Minute](https://calendly.com/victorsilvano/30min) or [60 Minute](https://calendly.com/victorsilvano/60min) time slot)
+### Calendly: ([15 Minute](https://calendly.com/victorsilvano/15min), [30 Minute](https://calendly.com/victorsilvano/30min) or [60 Minute](https://calendly.com/victorsilvano/60min) time slot)
