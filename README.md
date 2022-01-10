@@ -4,8 +4,10 @@ Thank you for taking the time to view my portfolio, if you have any feedback ple
 
 ## Projects
 
-### You can find the Python Project [here](https://github.com/VictorSilvano/Data-Analytics-Portfolio/blob/main/Python-Project/VSilvano_Python_Project.ipynb) and the SQL Project [here](https://github.com/VictorSilvano/Data-Analytics-Portfolio/tree/main/SQL-Project).
-(The Jupyter Notebook could require refreshing several times due to size)
+### You can find my Python Project on Weekly Walmart Sales [here](https://github.com/VictorSilvano/Data-Analytics-Portfolio/blob/main/Python-Projects/Walmart-Sales-Prediction-Analysis/V_Silvano_Walmart_Sales_Prediction_Model.ipynb) and an investigation into Life Expectancy [here](https://github.com/VictorSilvano/Data-Analytics-Portfolio/blob/main/Python-Projects/Life-Expectancy-Analysis/VSilvano_Python_Project.ipynb)
+
+### And an SQL Project on player retention for a video game  [here](https://github.com/VictorSilvano/Data-Analytics-Portfolio/tree/main/SQL-Project).
+(The Jupyter Notebooks could require refreshing several times due to size)
 
 Python Project: Examining Life Expentancy against both medical and socio economic
    > Skills Used: Pandas, NumPy, Seaborn, Matplotlib and SciKit Learn
