@@ -9,7 +9,11 @@ Thank you for taking the time to view my portfolio, if you have any feedback ple
 ### SQL Project on player retention for a video game  [here](https://github.com/VictorSilvano/Data-Analytics-Portfolio/tree/main/SQL-Project).
 (The Jupyter Notebooks could require refreshing several times due to size)
 
-Python Project: Examining Life Expentancy against both medical and socio economic
+
+Walmart Weekly Sales: Looking into how external factors can affect weekly sales and creting a regression model to try and predict future sales.
+   > Skills Used: Pandas, NumPy, Seaborn, Matplotlib and SciKit Learn
+
+Global Life Expentancy: Examining Life Expentancy against both medical and socio economic factors
    > Skills Used: Pandas, NumPy, Seaborn, Matplotlib and SciKit Learn
 
 SQL: An analysis of the 30-Day retention rate for a game company. 
