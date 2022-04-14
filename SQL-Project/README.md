@@ -17,7 +17,7 @@ All the visuals were made in Google Sheets.
 
 ![Fractional Retention Rate vs Day Joined](Fractional_Retention_Rate_vs_Day_Joined.png)
 
-![Rolling Retention Rate vs Day Joined](Rolling_Retention_Rate_vs_Day_Joined.pn)	
+![Rolling Retention Rate vs Day Joined](Rolling_Retention_Rate_vs_Day_Joined.png)	
 	
 1. A line chart was used to track the movement of the rolling rentention rate throughout the year. The visual for Rolling Retention was curated, all days between 334-365 were removed since retention of said days could not be accurately measured. Retention of a player is only achieved if they play a match on the 31st day after their account was created which cannot be decided for those players who joined within 30 days of the final day for which data was provided.Although there seems to be little correlation in the data there does seems to be a slight upward trend, but the vast majority of the retnetion is within the bracket of: -20 to 20 with only 13 days excedding either side of this envelope.
 
